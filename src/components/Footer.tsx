@@ -16,19 +16,19 @@ const footerLinks = {
     { name: 'Mentoring', href: '#' }
   ],
   'Connect': [
-    { name: 'GitHub', href: 'https://github.com' },
-    { name: 'LinkedIn', href: 'https://linkedin.com' },
+    { name: 'GitHub', href: 'https://github.com/coderkarthick' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/karthick-t-69a234274/' },
     { name: 'Twitter', href: 'https://twitter.com' },
-    { name: 'Email', href: 'mailto:alex@example.com' },
+    { name: 'Email', href: 'mailto:karthick2004.thiru@gmail.com' },
     { name: 'Resume', href: '#' }
   ]
 };
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/coderkarthick', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/karthick-t-69a234274/', label: 'LinkedIn' },
   { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Mail, href: 'mailto:alex@example.com', label: 'Email' }
+  { icon: Mail, href: 'mailto:karthick2004.thiru@gmail.com', label: 'Email' }
 ];
 
 export function Footer() {
@@ -52,7 +52,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">A</span>
               </div>
-              <span className="font-display font-bold text-xl">Alex Chen</span>
+              <span className="font-display font-bold text-xl">Karthick T</span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Building exceptional digital experiences through innovative development, 
@@ -128,11 +128,11 @@ export function Footer() {
           <div className="flex items-center space-x-1 text-muted-foreground mb-4 md:mb-0">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-            <span>by Alex Chen</span>
+            <span>by Karthick T</span>
           </div>
           
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
-            <span>&copy; 2024 Alex Chen. All rights reserved.</span>
+            <span>&copy; 2024 Karthick T. All rights reserved.</span>
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
           </div>

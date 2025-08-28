@@ -32,8 +32,8 @@ export function HeroSection() {
             <div className="space-y-2">
               <p className="text-primary font-medium">Hello, I'm</p>
               <h1 className="text-5xl lg:text-7xl font-bold font-display">
-                Alex{' '}
-                <span className="gradient-text">Chen</span>
+                KARTHICK {' '}
+                <span className="gradient-text">T</span>
               </h1>
             </div>
             

@@ -46,19 +46,19 @@ export function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex.chen@example.com',
-      href: 'mailto:alex.chen@example.com'
+      value: 'karthick2004.thiru@gmail.com',
+      href: 'mailto:karthick2004.thiru@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 7397677347',
+      href: 'tel:+91 7397677347'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Chennai ,Tamil Nadu',
       href: '#'
     },
     {
