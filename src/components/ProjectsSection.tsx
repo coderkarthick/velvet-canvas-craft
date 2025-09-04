@@ -2,17 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github, Eye } from 'lucide-react';
 
 const projects = [
-  {
-    id: 1,
-    title: 'E-Commerce Platform',
-    category: 'Web Development',
-    description: 'A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include real-time inventory, user authentication, and admin dashboard.',
-    image: '/api/placeholder/600/400',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
-    featured: true
-  },
+  
   {
     id: 2,
     title: 'AI Image Recognition',
@@ -20,6 +10,17 @@ const projects = [
     description: 'Deep learning model for image classification using TensorFlow. Achieved 95% accuracy on custom dataset with real-time inference capabilities.',
     image: '/api/placeholder/600/400',
     technologies: ['Python', 'TensorFlow', 'OpenCV', 'Flask'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com',
+    featured: true
+  },
+  {
+    id: 1,
+    title: 'E-Commerce Platform',
+    category: 'Web Development',
+    description: 'A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include real-time inventory, user authentication, and admin dashboard.',
+    image: '/api/placeholder/600/400',
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
     liveUrl: 'https://example.com',
     githubUrl: 'https://github.com',
     featured: true
