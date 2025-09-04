@@ -3,6 +3,7 @@ import { Send, Mail, Phone, MapPin, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import emailjs from "@emailjs/browser";
 
 export function ContactSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,6 +16,12 @@ export function ContactSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+     const options = {
+    publicKey: import.meta.env.VITE_PUBLIC_KEY,
+
+    privateKey: import.meta.env.VITE_PRIVATE_KEY,
+  };
+   emailjs.init(options);
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -37,9 +44,15 @@ export function ContactSection() {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted:', formData);
+    e.preventDefault();
+     emailjs.send(import.meta.env.VITE_SERVICE_ID, "template_on25cxa", 
+      formData,
+    );
+    emailjs.send(import.meta.env.VITE_SERVICE_ID, "template_bqcrkrq", 
+      formData,
+    );
+    
   };
 
   const contactInfo = [
